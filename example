@@ -1,0 +1,35 @@
+:\python-docs-samples-master\appengine\standard\hello_world>dev_appserver.py app.yaml
+This action requires the installation of components: [app-engine-
+python]
+
+
+Your current Cloud SDK version is: 187.0.0
+Installing components from version: 187.0.0
+
++--------------------------------------------------+
+|       These components will be installed.        |
++------------------------------+---------+---------+
+|             Name             | Version |   Size  |
++------------------------------+---------+---------+
+| gcloud app Python Extensions |  1.9.66 | 6.1 MiB |
++------------------------------+---------+---------+
+
+For the latest full release notes, please visit:
+  https://cloud.google.com/sdk/release_notes
+
+Do you want to continue (Y/n)?  Y
+
+#============================================================#
+#= Creating update staging area                             =#
+#============================================================#
+#= Installing: gcloud app Python Extensions                 =#
+#============================================================#
+#= Creating backup and activating new installation          =#
+#============================================================#
+
+Performing post processing steps...done.
+
+Update done!
+
+Restarting command:
+  $ dev_appserver.py app.yaml
